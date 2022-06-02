@@ -1,101 +1,89 @@
 /*Update browser defaults to match style choices*/
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
-    
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-
 }
 
 /* apply styles to <header> */
 header {
-
     padding: 20px 35px;
-    background-color: #39a6b2;
-    
+    background-color: #39a6b2;   
 }
 
 /*apply styles to <h1> in header*/
-header h1 {
-    
+header h1 {    
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
     display: inline;
-
 }
 
 /*apply styles to <a> in header*/
 header a {
-
     text-decoration: none;
     color: #fce138;
-
 }
 
 /*apply styles to navigation*/
 header nav {
-
     float: right;
     margin: 7px 0;
-
 }
 
 /*apply styles to <li> in navigation*/
 header nav ul li {
-
     display: inline;
-
 }
 
 /*apply styles to <a> in navigation in header*/
 header nav ul li a {
-
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-
 }
 
 /*apply styles to <footer>*/
-footer {
-    
+footer {    
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
-
 }
 
 /*apply styles to <h2> within footer*/
 footer h2 {
-
     display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
-
 }
 
 /*apply styles to <div> within footer*/
-footer div {
-    
+footer div {    
     float: right;
     line-height: 1.5;
     text-align: right;
-
 }
 
 /*apply styles to the <a> element*/
 footer a {
-
     color: #024e76;
-
 }
+
+/*apply styles to the <section> element*/
+section {
+    padding: 60px;
+}
+
+/*Hero Style Start */
+.hero {
+    background-image: url("/assets/images/hero-bg.jpg");
+    height 600px;
+}
+/*Hero Style End */
