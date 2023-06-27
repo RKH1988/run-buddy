@@ -8,7 +8,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://RKH1988/github.io/run-buddy/
+https://RKH1988.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by RK Harris.
